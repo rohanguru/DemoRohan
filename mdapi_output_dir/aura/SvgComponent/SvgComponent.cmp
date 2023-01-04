@@ -1,0 +1,17 @@
+<aura:component>
+  <div class="demo-only" style="padding:0.5rem;background:#16325c">
+  <div class="slds-button-group" role="group">
+    <button class="slds-button slds-button_inverse">Refresh</button>
+    <button class="slds-button slds-button_inverse">Edit</button>
+    <button class="slds-button slds-button_inverse">Save</button>
+    <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-button_last">
+      <button class="slds-button slds-button_icon slds-button_icon-border-inverse" aria-haspopup="true" title="More Actions">
+   <!--     <svg class="slds-button__icon" aria-hidden="true">
+            <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"/>
+        </svg>   -->
+        <span class="slds-assistive-text">More Actions</span>
+      </button>
+    </div>
+  </div>
+</div>
+</aura:component>

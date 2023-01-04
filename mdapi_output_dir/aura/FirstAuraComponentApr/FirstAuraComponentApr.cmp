@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<h1>Hello Component</h1>
+    <aura:handler name="init" action="{!c.myAction}" value="{!this}" />
+    <aura:attribute type="String" name="name" />
+    Helllo {!v.name}
+</aura:component>

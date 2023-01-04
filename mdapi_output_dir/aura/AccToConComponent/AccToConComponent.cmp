@@ -1,0 +1,24 @@
+<aura:component controller="AccToContact" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <aura:attribute name="contactObj"  type="Contact" default="{'sobjectType':'Contact',
+                                                               'FirstName':'',
+                                                               'LastName':'',
+                                                               'Email':'',
+                                                               'Phone':''}"/>
+    <aura:attribute name="contactId" Type="string"/>
+    <aura:attribute name="recordId" type="Id"/>
+        <aura:attribute name="contactList" type="Contact[]" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+    <aura:iteration items="{!v.contactList}" var="contact"/>   
+     <lightning:input name="RecordId"  label="record Id" value="{!v.recordId}" disabled="true"/>
+    
+   <lightning:input value="{!v.contactObj.FirstName}" label="First Name" />
+    <lightning:input value="{!v.contactObj.LastName}" label="Last Name"/>
+    <lightning:input value="{!v.contactObj.Phone}" label="Phone"/>
+    <lightning:input value="{!v.contactObj.Email}" label="Email"/>  
+    <lightning:button variant="brand" label="Save" title="Save" onclick="{!c.Savecont}"/> 
+    <aura:set attribute="actions">
+                <lightning:button name="{!contact.Id}" label="Save" variant="brand"
+                                  onclick="{!c.doRedirect}"/>
+            </aura:set>
+    </aura:component>

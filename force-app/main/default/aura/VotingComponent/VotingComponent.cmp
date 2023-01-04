@@ -1,0 +1,226 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="num1" type="integer" default="0" />
+    <aura:attribute name="num2" type="integer" default="0" />
+    <aura:attribute name="num3" type="integer" default="0" />
+    <aura:attribute name="num4" type="integer" default="0" />
+    <aura:attribute name="num5" type="integer" default="0" />
+    <aura:attribute name="num6" type="integer" default="0" />
+    <aura:attribute name="num7" type="integer" default="0" />
+    <aura:attribute name="num8" type="integer" default="0" />
+    <aura:attribute name="num9" type="integer" default="0" />
+<aura:attribute name="num10" type="integer" default="0" />
+<aura:attribute name="num11" type="integer" default="0" />
+<aura:attribute name="num12" type="integer" default="0" />
+    <aura:attribute name="num13" type="integer" default="0" />
+    <aura:attribute name="num14" type="integer" default="0" />
+    <aura:attribute name="num15" type="integer" default="0" />
+    <aura:attribute name="num16" type="integer" default="0" />
+    <aura:attribute name="num17" type="integer" default="0" />
+    <aura:attribute name="num18" type="integer" default="0" />
+    <aura:attribute name="num19" type="integer" default="0" />
+    <aura:attribute name="num20" type="integer" default="0" />
+    <aura:attribute name="num21" type="integer" default="0" />
+    <aura:attribute name="num22" type="integer" default="0" />
+    <aura:attribute name="num23" type="integer" default="0" />
+    
+
+
+  <div class="slds-grid slds-gutters">
+  <div class="slds-col"> 
+      <div>
+            <img src="{!$Resource.shweta}"/>
+        </div>
+ <span>Shweta Khobragade </span>
+     <lightning:input name="input1" value="{!v.num1}" /> 
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+ </div>
+   
+    <div class="slds-col">
+        <div>
+            <img src="{!$Resource.Sneh}"/>
+        </div>
+        <span>Snehdeep Khobragade </span>
+    <lightning:input name="input2"  value="{!v.num2}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment2}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement2}"/>
+    </div>
+          
+    <div class="slds-col">
+        <div>
+            <img src="{!$Resource.Ranjith}"/>
+        </div>
+        <span>Ranjith Moses </span>
+    <lightning:input name="input3"  value="{!v.num3}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment3}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement3}"/>
+    </div>
+    {!v.num3}
+   <div class="slds-col">
+       <div>
+            <img src="{!$Resource.Swati}"/>
+        </div>
+      <span>Swati Kashyap 
+    <lightning:input name="input4"  value="{!v.num4}" />  <br/> 
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment4}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement4}"/>
+          </span>
+      </div>
+    </div>
+<hr/>
+    
+ <div class="slds-grid slds-gutters">   
+  <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Nikil}"/>
+        </div>
+        <span>Nikhilesh Kore</span>
+    <lightning:input name="input5"  value="{!v.num5}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment5}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement5}"/>
+    </div>
+   
+   <div class="slds-col">
+       <div>
+            <img src="{!$Resource.Praneet}"/>
+        </div>
+        <span>Praneet Reddy</span>
+    <lightning:input name="input6"  value="{!v.num6}" /> <br/>  
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment6}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement6}"/>
+    </div>
+    
+   <div class="slds-col">
+       <div>
+            <img src="{!$Resource.Sravani}"/>
+        </div>
+        <span>Sravani Dronadula</span>
+    <lightning:input name="input7"  value="{!v.num7}" /><br/>   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment7}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement7}"/>
+    </div>
+     
+   <div class="slds-col">
+       <div>
+            <img src="{!$Resource.Anil}"/>
+        </div>
+        <span>Anil Gandu</span>
+    <lightning:input name="input8"  value="{!v.num8}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment8}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement8}"/>
+    </div>
+     </div>
+    <hr/>
+    
+  <div class="slds-grid slds-gutters">   
+  <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Lavanya}"/>
+        </div>
+        <span>Lavanya</span>
+    <lightning:input name="input9"  value="{!v.num9}" /> <br/>  
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment9}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement9}"/>
+    </div>
+    
+   <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Asifa}"/>
+        </div>
+        <span>Asifa</span>
+    <lightning:input name="input10"  value="{!v.num10}" /><br/>   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment10}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement10}"/>
+    </div>
+    
+    <div class="slds-col">
+      <div>
+            <img src="{!$Resource.shika}"/>
+        </div>
+        <span>shika</span>
+    <lightning:input name="input11"  value="{!v.num11}" /><br/>   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment11}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement11}"/>
+    </div>
+    
+    <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Naresh}"/>
+        </div>
+        <span>Naresh</span>
+    <lightning:input name="input12"  value="{!v.num12}" /> <br/>  
+        <lightning:button variant="brand" label="Vote" onclick="{!c.increment12}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement12}"/>
+      </div>
+    </div><hr/>
+    
+   <div class="slds-grid slds-gutters">   
+  <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Amrutha}"/>
+        </div>
+        <span>Amrutha</span>
+    <lightning:input name="input5"  value="{!v.num5}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment5}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement5}"/>
+    </div>
+     
+  <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Pavani}"/>
+        </div>
+        <span>Pavani</span>
+    <lightning:input name="input5"  value="{!v.num5}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment5}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement5}"/>
+    </div>
+           
+  <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Haritha}"/>
+        </div>
+        <span>Haritha</span>
+    <lightning:input name="input5"  value="{!v.num5}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment5}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement5}"/>
+    </div>
+    
+    <div class="slds-col">
+      <div>
+            <img src="{!$Resource.Rajitha}"/>
+        </div>
+        <span>Rajitha</span>
+    <lightning:input name="input5"  value="{!v.num5}" />   <br/>
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment5}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement5}"/>
+    </div>
+        
+<!--    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+    
+    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+    
+    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+    
+    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+    
+    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+    
+    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>
+    
+    <lightning:input name="input1" label="Shweta Khobragade" value="{!v.num1}" />   
+<lightning:button variant="brand" label="Vote" onclick="{!c.increment}"/>
+    <lightning:button variant="brand" label="-1" onclick="{!c.decrement}"/>   -->
+    </div>
+</aura:component>

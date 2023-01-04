@@ -1,0 +1,37 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+<div class="slds-p-around_small"></div>
+    <aura:attribute name="num1" type="integer" />
+    <aura:attribute name="num2" type="integer" />
+    <aura:attribute name="total" type="integer" />
+    
+    <aura:attribute name="isAdd" type="boolean" default="false" />
+    <aura:attribute name="isSub" type="boolean" default="false" />
+    <aura:attribute name="isMul" type="boolean" default="false" />
+    <aura:attribute name="isDiv" type="boolean" default="false" />
+    
+    <lightning:input name="input1" label="Enter First Number" value="{!v.num1}" />
+    <lightning:input name="input2" label="Enter Second Number" value="{!v.num2}" />
+    <br/>
+    <lightning:buttonGroup>
+        <lightning:button label="Addition" onclick="{!c.Add}" />
+        <lightning:button label="Subtract" onclick="{!c.Sub}" />
+        <lightning:button label="Multiply" onclick="{!c.Mul}" />
+        <lightning:button label="Division" onclick="{!c.Divi}" />
+        <lightning:button label="Clear" onclick="{!c.Clear}" />
+    </lightning:buttonGroup>
+    
+    <br/>
+    
+    <aura:if isTrue="{!v.isAdd}">
+        Addition of Two Numbers = {!v.total}
+    </aura:if>
+    <aura:if isTrue="{!v.isSub}">
+        Subtraction of Two Numbers = {!v.total}
+    </aura:if>
+    <aura:if isTrue="{!v.isMul}">
+        Multiplication of Two Numbers = {!v.total}
+    </aura:if>
+    <aura:if isTrue="{!v.isDiv}">
+        Division of Two Numbers = {!v.total}
+    </aura:if>
+</aura:component>

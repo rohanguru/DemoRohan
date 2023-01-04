@@ -1,0 +1,22 @@
+<aura:component controller="VotingPoll" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="employeeList" type="VamriTech_Employees__c[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.handle}"/>
+    <div class="slds-p-around_max-large">
+        <div class="slds-scrollable" style="height:60rem;width:100rem">
+            <div class="slds-text-longform" style="width:100%">
+                <div class="slds-grid slds-gutters slds-wrap" style="height: 80px;">
+                    <aura:iteration items="{!v.employeeList}" var="emp">
+                        <div class="slds-col slds-size_2-of-4 slds-has-bottom-magnet slds-box slds-theme_shade slds-p-around_max-large" style="height: 80px;">
+                            
+                           {!emp.Name}"  
+                                <img src="{!emp.$Resource.Ranjith}"/>
+                                 <img src="{!emp.$Resource.Swati}"/>
+                            
+                        </div>
+                    </aura:iteration>
+                    <lightning:button label="Submit" onclick="{!c.Submit}"  variant="brand"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>

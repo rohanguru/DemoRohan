@@ -1,0 +1,176 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+<div class="slds-grid slds-gutters slds-wrap " style="height: 80px;">
+<div class="slds-size_1-of-4" >
+    <div class="slds-box slds-box_ slds-text-align_center slds-m-around_small" >
+        <div>
+            <img src="{!$Resource.Praneet}"/>
+        </div>
+        <div>
+            <button style="width: 310px;">Praneeth</button>
+        </div>
+    </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Anil}"/>
+        </div>
+            <div>
+                <button style="width: 310px;">Anil</button>
+            </div>
+        </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Ranjith}"/>
+        </div>
+            <div>
+                <button style="width: 310px;">Ranjith</button>
+            </div>
+        </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Tarun}"/>
+        </div>
+            <div>
+                <button style="width: 310px;">Tarun</button>
+            </div>
+        </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Naresh}"/>
+        </div>
+            <div>
+                <button style="width: 310px;">Naresh</button>
+            </div>
+        </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Swamy}"/>
+        </div>
+            <div>
+                <button style="width: 310px;">Swamy</button>
+            </div>
+        </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Sukanya}"/>
+        </div>
+            <div>
+                <button style="width: 310px;">Sukanya</button>
+            </div>
+        </div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Bhavani}"/>
+        </div>
+        Bhavani</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.shika}"/>
+        </div>
+        Shika</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Pavani}"/>
+        </div>
+        Pavani</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Sneh}"/>
+        </div>
+        Snehdeep</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Swati}"/>
+        </div>
+        Swati</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.shweta}"/>
+        </div>
+        Shweta</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Asifa}"/>
+        </div>
+        Asifa</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Lavanya}"/>
+        </div>
+        Lavanya</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Amrutha}"/>
+        </div>
+        Amrutha</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Haritha}"/>
+        </div>
+        Haritha</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Rajitha}"/>
+        </div>
+        Rajitha</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        Durga Prasad</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Nikil}"/>
+        </div>
+        Nikilesh</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Rohan}"/>
+        </div>
+        Rohan</div>
+</div>
+<div class="slds-size_1-of-4">
+    <div class="slds-box slds-box_small slds-text-align_center slds-m-around_small">
+        <div>
+            <img src="{!$Resource.Sravani}"/>
+        </div>
+        Sravani</div>
+</div>
+</div>
+</aura:component>

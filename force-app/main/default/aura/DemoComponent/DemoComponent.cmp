@@ -1,0 +1,10 @@
+<aura:component  controller="ContactController">
+    <aura:attribute name="cntList" type="Contact"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <h1>List of Contacts</h1><br/>
+    <aura:iteration items="{!v.cntList}" var="cnt" >
+        Name : {!cnt.Name}<br/>
+        Phone : {!cnt.Phone}<br/><br/><hr/>                                               
+          </aura:iteration>
+</aura:component>
