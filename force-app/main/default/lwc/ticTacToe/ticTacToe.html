@@ -1,0 +1,14 @@
+<template>
+    <div class="game-board">
+      <template for:each={rows} for:item="row">
+        <div class="row" key={index}>
+          <template for:each={row} for:item="cell">
+            <div class="cell" key={cell.index} onclick={handleCellClick} data-index={cell.index}>
+              {cell.value}
+            </div>
+          </template>
+        </div>
+      </template>
+    </div>
+  </template>
+  

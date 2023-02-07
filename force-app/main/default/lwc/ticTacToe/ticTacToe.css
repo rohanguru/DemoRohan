@@ -1,0 +1,22 @@
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .cell {
+    background-color: yellowgreen;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 100px;
+    font-size: 36px;
+  }
+  
