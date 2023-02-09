@@ -5,7 +5,7 @@
     <description>This is a sample Lightning Message Channel.</description>
     <lightningMessageFields>
         <fieldName>isTermvalid</fieldName>
-        <description>This is to check is term valid</description>
+        <description>This is to check is term valid</description >
     </lightningMessageFields>
     <lightningMessageFields>
         <fieldName>searchTerm</fieldName>
