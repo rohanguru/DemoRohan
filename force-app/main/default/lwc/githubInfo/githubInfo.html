@@ -1,0 +1,8 @@
+<template>
+    <template for:each={users} for:item="user" for:index="index">
+        <div class="user" key={user.id}>
+            <img src={user.avatar_url} alt={user.login} />
+            <a href={user.html_url} target="_blank">{user.login}</a>
+        </div>
+    </template>
+</template>

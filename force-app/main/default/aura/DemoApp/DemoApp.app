@@ -2,8 +2,8 @@
 <!--    <c:SvgComponent/>   -->
   <!--  <c:SecondAccordionComponent/>  -->
   <!--   <c:CntEmailAccordionComp/>       -->
-    <!-- <c:VotingComponent3/> --> 
+     <c:VotingComponent/>  
   <!--  <c:ComponentEvent2Parent/>  -->
-     <c:NewVotingComponent/>  
-      <c:DisplayPicturesComponent/>   
+   <!--  <c:NewVotingComponent/>  
+      <c:DisplayPicturesComponent/>   -->
 </aura:application>

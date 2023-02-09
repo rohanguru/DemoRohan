@@ -1,10 +1,39 @@
 <template>
-   
-<lightning-input
-            name="enter-search"
-            label="Search when user hits the 'enter' key"
-            type="search"
-    
-        
-        ></lightning-input>
-</template>
+    <lightning-card title="Lightning Message Service (LMS) in LWC Publisher" icon-name="standard:contact">
+        <div class="slds-p-horizontal_small">
+            <lightning-input type="text" label="Message" onchange={handleChange} value={message}></lightning-input>
+            <!-- call subscriber -->
+            <div class="slds-p-around_medium lgc-bg" style="text-align: end;">
+                <lightning-button label="Search" icon-name="utility:download" slot="actions" onclick={handleClick}></lightning-button>
+            </div>    
+        </div>
+    </lightning-card>
+</template>  
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--<template>
+    <div class="xyz">
+        Welcome
+        <lightning-card title="please Search">
+            <lightning-button label="Search" icon-name="utility:download" slot="actions" onclick={handleClick}></lightning-button>
+        <lightning-input class="git-input-padding"
+                name="enter-search" onchange={handleClick}
+                label="Click on search after typing."
+                type="search"
+            ></lightning-input>
+          {searchText}  
+        </lightning-card>
+       
+    </div>
+ <c-second-web-component person-name={searchText}></c-second-web-component>   
+</template>  -->

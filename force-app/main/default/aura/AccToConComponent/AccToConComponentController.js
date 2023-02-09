@@ -25,7 +25,7 @@
 		
 	},
     doRedirect : function(component, event, helper) {
-      //  alert('Hi');
+       alert('Hi');
         var eve = event.getSource();//calling event.getSource() gets us a reference to the specific <lightning:button> that was clicked.
         var id = eve.get('v.name');
         var navEvt = $A.get("e.force:navigateToSObject"); //Navigates to an sObject record specified by recordId

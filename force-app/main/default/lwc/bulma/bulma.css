@@ -1,6 +1,5 @@
-.custom-class {
-    background-color: lightpink;
-  }
-  .text-color {
-    color: black;
+
+  .custom-background {
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.c5IHavrnbntQnqpWgorTowHaEo&pid=Api&P=0.jpg");
+    background-size: cover;
   }
