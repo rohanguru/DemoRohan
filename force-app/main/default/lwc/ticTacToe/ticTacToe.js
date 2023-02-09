@@ -7,7 +7,7 @@ const ROWS = [
 ];
 
 export default class TicTacToe extends LightningElement {
-  @track rows = JSON.parse(JSON.stringify(ROWS));
+  @track rows = JSON.parse(JSON.stringify(ROWS)) ;
   xIsNext = true;
 
   handleCellClick(event) {

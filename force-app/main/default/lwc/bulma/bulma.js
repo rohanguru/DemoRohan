@@ -15,8 +15,8 @@ export default class Lds extends LightningElement {
       this.lastName = event.target.value;
     }
   
-    handlePhoneChange(event) {
-      this.phone = event.target.value;
+    handlePhoneChange(event) { 
+      this.phone = event.target.value ;
     }
   
     handleTextChange(event) {

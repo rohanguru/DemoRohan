@@ -1,5 +1,5 @@
 .custom-background {
-    background-image: url('/resource/Nature');
+    background-image: url('/resource/Nature') ;
     background-repeat: no-repeat;
     background-size: cover;
   }

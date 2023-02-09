@@ -5,6 +5,6 @@ export default class gitUsers extends LightningElement {
         const selectedEvent = new CustomEvent('userclicked', { detail: this.retrivedUser.login });
 
         // Dispatches the event.
-        this.dispatchEvent(selectedEvent);
+        this.dispatchEvent(selectedEvent) ;
     }
 }
