@@ -20,5 +20,4 @@
 Live Demo on the Scratch Org: https://hosted-scratch.herokuapp.com/launch?template=https://github.com/rohanguru/DemoRohan
 
 # Preview
-![image](https://user-images.githubusercontent.com/121804442/211743231-a5cf8041-b11f-4a0a-932a-44dc201d87b4.png)
-
+![Screenshot (300)](https://user-images.githubusercontent.com/121804442/217184122-ab5d1596-d790-4bca-8701-aa9faec2d4a3.png)
